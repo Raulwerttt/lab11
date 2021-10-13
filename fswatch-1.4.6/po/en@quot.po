@@ -1,0 +1,268 @@
+# English translations for fswatch package.
+# Copyright (C) 2015 Enrico M. Crisostomo
+# This file is distributed under the same license as the fswatch package.
+# Automatically generated, 2015.
+#
+# All this catalog "translates" are quotation characters.
+# The msgids must be ASCII and therefore cannot contain real quotation
+# characters, only substitutes like grave accent (0x60), apostrophe (0x27)
+# and double quote (0x22). These substitutes look strange; see
+# http://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
+#
+# This catalog translates grave accent (0x60) and apostrophe (0x27) to
+# left single quotation mark (U+2018) and right single quotation mark (U+2019).
+# It also translates pairs of apostrophe (0x27) to
+# left single quotation mark (U+2018) and right single quotation mark (U+2019)
+# and pairs of quotation mark (0x22) to
+# left double quotation mark (U+201C) and right double quotation mark (U+201D).
+#
+# When output to an UTF-8 terminal, the quotation characters appear perfectly.
+# When output to an ISO-8859-1 terminal, the single quotation marks are
+# transliterated to apostrophes (by iconv in glibc 2.2 or newer) or to
+# grave/acute accent (by libiconv), and the double quotation marks are
+# transliterated to 0x22.
+# When output to an ASCII terminal, the single quotation marks are
+# transliterated to apostrophes, and the double quotation marks are
+# transliterated to 0x22.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fswatch 1.4.6\n"
+"Report-Msgid-Bugs-To: enrico.m.crisostomo@gmail.com\n"
+"POT-Creation-Date: 2015-01-14 16:05+0100\n"
+"PO-Revision-Date: 2015-01-14 16:05+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en@quot\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/fswatch.cpp:115
+msgid ""
+"Available monitors in this platform:\n"
+"\n"
+msgstr ""
+"Available monitors in this platform:\n"
+"\n"
+
+#: src/fswatch.cpp:127
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+msgstr ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+
+#: src/fswatch.cpp:128
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "This is free software: you are free to change and redistribute it.\n"
+
+#: src/fswatch.cpp:129
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "There is NO WARRANTY, to the extent permitted by law.\n"
+
+#: src/fswatch.cpp:131
+msgid "Written by Enrico M. Crisostomo."
+msgstr "Written by Enrico M. Crisostomo."
+
+#: src/fswatch.cpp:139
+msgid "Usage:\n"
+msgstr "Usage:\n"
+
+#: src/fswatch.cpp:140
+msgid " [OPTION] ... path ...\n"
+msgstr " [OPTION] ... path ...\n"
+
+#: src/fswatch.cpp:142
+msgid "Options:\n"
+msgstr "Options:\n"
+
+#: src/fswatch.cpp:143
+msgid "Use the ASCII NUL character (0) as line separator.\n"
+msgstr "Use the ASCII NUL character (0) as line separator.\n"
+
+#: src/fswatch.cpp:144
+msgid "Exit fswatch after the first set of events is received.\n"
+msgstr "Exit fswatch after the first set of events is received.\n"
+
+#: src/fswatch.cpp:145
+msgid "Print a marker at the end of every batch.\n"
+msgstr "Print a marker at the end of every batch.\n"
+
+#: src/fswatch.cpp:147
+msgid "Exclude paths matching REGEX.\n"
+msgstr "Exclude paths matching REGEX.\n"
+
+#: src/fswatch.cpp:148
+msgid "Use extended regular expressions.\n"
+msgstr "Use extended regular expressions.\n"
+
+#: src/fswatch.cpp:150
+msgid "Use the specified record format."
+msgstr "Use the specified record format."
+
+#: src/fswatch.cpp:151
+msgid "Print the event time using the specified format.\n"
+msgstr "Print the event time using the specified format.\n"
+
+#: src/fswatch.cpp:152
+msgid "Show this message.\n"
+msgstr "Show this message.\n"
+
+#: src/fswatch.cpp:154
+msgid "Include paths matching REGEX.\n"
+msgstr "Include paths matching REGEX.\n"
+
+#: src/fswatch.cpp:155
+msgid "Use case insensitive regular expressions.\n"
+msgstr "Use case insensitive regular expressions.\n"
+
+#: src/fswatch.cpp:157
+msgid "Set the latency.\n"
+msgstr "Set the latency.\n"
+
+#: src/fswatch.cpp:158
+msgid "Follow symbolic links.\n"
+msgstr "Follow symbolic links.\n"
+
+#: src/fswatch.cpp:159
+msgid "Use the specified monitor.\n"
+msgstr "Use the specified monitor.\n"
+
+#: src/fswatch.cpp:160
+msgid "Print a numeric event mask.\n"
+msgstr "Print a numeric event mask.\n"
+
+#: src/fswatch.cpp:161
+msgid "Print a single message with the number of change events.\n"
+msgstr "Print a single message with the number of change events.\n"
+
+#: src/fswatch.cpp:162
+msgid "Recurse subdirectories.\n"
+msgstr "Recurse subdirectories.\n"
+
+#: src/fswatch.cpp:163
+msgid "Print the event timestamp.\n"
+msgstr "Print the event timestamp.\n"
+
+#: src/fswatch.cpp:164
+msgid "Print the event time as UTC time.\n"
+msgstr "Print the event time as UTC time.\n"
+
+#: src/fswatch.cpp:165
+msgid "Print verbose output.\n"
+msgstr "Print verbose output.\n"
+
+#: src/fswatch.cpp:166
+msgid "Print the version of "
+msgstr "Print the version of "
+
+#: src/fswatch.cpp:166
+msgid " and exit.\n"
+msgstr " and exit.\n"
+
+#: src/fswatch.cpp:167
+msgid "Print the event flags.\n"
+msgstr "Print the event flags.\n"
+
+#: src/fswatch.cpp:169
+msgid "Print event flags using the specified separator."
+msgstr "Print event flags using the specified separator."
+
+#: src/fswatch.cpp:217
+msgid ""
+"\n"
+"See the man page for more information.\n"
+"\n"
+msgstr ""
+"\n"
+"See the man page for more information.\n"
+"\n"
+
+#: src/fswatch.cpp:219
+msgid "Report bugs to <"
+msgstr "Report bugs to <"
+
+#: src/fswatch.cpp:220
+msgid " home page: <"
+msgstr " home page: <"
+
+#: src/fswatch.cpp:238
+msgid "Done.\n"
+msgstr "Done.\n"
+
+#: src/fswatch.cpp:246
+msgid "Invalid value: "
+msgstr "Invalid value: "
+
+#: src/fswatch.cpp:252
+msgid "Value out of range: "
+msgstr "Value out of range: "
+
+#: src/fswatch.cpp:258
+msgid "Latency set to: "
+msgstr "Latency set to: "
+
+#: src/fswatch.cpp:273
+msgid "SIGTERM handler registered.\n"
+msgstr "SIGTERM handler registered.\n"
+
+#: src/fswatch.cpp:277
+msgid "SIGTERM handler registration failed."
+msgstr "SIGTERM handler registration failed."
+
+#: src/fswatch.cpp:282
+msgid "SIGABRT handler registered.\n"
+msgstr "SIGABRT handler registered.\n"
+
+#: src/fswatch.cpp:286
+msgid "SIGABRT handler registration failed."
+msgstr "SIGABRT handler registration failed."
+
+#: src/fswatch.cpp:291
+msgid "SIGINT handler registered.\n"
+msgstr "SIGINT handler registered.\n"
+
+#: src/fswatch.cpp:295
+msgid "SIGINT handler registration failed"
+msgstr "SIGINT handler registration failed"
+
+#: src/fswatch.cpp:364
+msgid "<date format error>"
+msgstr "<date format error>"
+
+#: src/fswatch.cpp:467
+msgid "Adding path: "
+msgstr "Adding path: "
+
+#: src/fswatch.cpp:672
+msgid ""
+"--format is incompatible with any other format option such as -t and -x."
+msgstr ""
+"--format is incompatible with any other format option such as -t and -x."
+
+#: src/fswatch.cpp:678
+msgid "--format is incompatible with -o."
+msgstr "--format is incompatible with -o."
+
+#: src/fswatch.cpp:693
+msgid "Invalid format."
+msgstr "Invalid format."
+
+#: src/fswatch.cpp:805
+msgid "Invalid number of arguments."
+msgstr "Invalid number of arguments."
+
+#: src/fswatch.cpp:811
+msgid "Invalid monitor name."
+msgstr "Invalid monitor name."
+
+#: src/fswatch.cpp:827
+msgid "An error occurred and the program will be terminated.\n"
+msgstr "An error occurred and the program will be terminated.\n"
+
+#: src/fswatch.cpp:834
+msgid "An unknown error occurred and the program will be terminated."
+msgstr "An unknown error occurred and the program will be terminated."
